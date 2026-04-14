@@ -5,35 +5,32 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
           <a href="#" className="font-serif text-2xl tracking-tight text-foreground">
-            Hvile
+            АвиаМодель
           </a>
 
           {/* Links */}
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
             <a href="#philosophy" className="hover:text-foreground transition-colors duration-300">
-              Философия
+              История
             </a>
             <a href="#features" className="hover:text-foreground transition-colors duration-300">
-              Возможности
+              Сборка
             </a>
             <a href="#pricing" className="hover:text-foreground transition-colors duration-300">
-              Тарифы
+              Технологии
             </a>
-            <a href="#" className="hover:text-foreground transition-colors duration-300">
-              Политика
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors duration-300">
-              Условия
+            <a href="#contact" className="hover:text-foreground transition-colors duration-300">
+              Авторы
             </a>
           </div>
 
           {/* Copyright */}
-          <p className="text-sm text-muted-foreground">2026 Hvile. Все права защищены.</p>
+          <p className="text-sm text-muted-foreground">2026 · Ментей Пётр & Некрасова Елизавета</p>
         </div>
 
         {/* Large decorative logo */}
         <div className="mt-20 text-center">
-          <span className="font-serif text-[12rem] md:text-[16rem] leading-none text-border/50 select-none">H</span>
+          <span className="font-serif text-[12rem] md:text-[16rem] leading-none text-border/50 select-none">✈</span>
         </div>
       </div>
     </footer>
